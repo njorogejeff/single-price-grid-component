@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    /* Primary Colors */
+    --cyan: hsl(179, 62%, 43%);
+    --light-cyan: #4ABEBD;
+    --bright-yellow: hsl(71, 73%, 54%);
+
+    /* Neutral Colors */
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+body {
+    background-color: var(--light-gray);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 100vh;
+    max-width: 480px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+li {
+    list-style-type: none;
+}
+
+/* Card Component Styles */
+.card__container {
+    max-width: 378px;
+    width: 85%;
+    margin: 5rem auto;
+}
+.card__section__1,
+.first__section,
+.second__section {
+    padding: 1.5rem;
+}
+.card__section__1 {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px 5px 0 0;
+    color: var(--grayish-blue);
+    font-size: .88rem;
+    line-height: 1.7;
+    padding-bottom: 2rem;
+}
+.section__1__title {
+    color: var(--cyan);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.section__1__subtitle {
+    color: var(--bright-yellow);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: .9rem;
+}
+.card__section__2 {
+    color: var(--light-gray);
+}
+.first__section {
+    background-color: var(--cyan);
+}
+.first__section__title,
+.second__section__title {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+.first__section__text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+    color: hsl(204, 43%, 93%, 0.5);
+    margin-bottom: .5rem;
+}
+.first__section__text span {
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+.first__section__text2 {
+    margin-bottom: 1.5rem;
+}
+.first__section__button {
+    background-color: var(--bright-yellow);
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    font-size: .9rem;
+    font-weight: 700;
+}
+.second__section {
+    background-color: var(--light-cyan);
+    border-radius: 0 0 5px 5px;
+}
