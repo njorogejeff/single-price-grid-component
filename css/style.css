@@ -23,7 +23,7 @@ body {
     font-family: 'Karla', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    height: 100vh;
+    /* height: 100vh; */
     max-width: 480px;
     margin: 0 auto;
     overflow-x: hidden;
@@ -91,6 +91,7 @@ li {
     color: hsl(0, 0%, 100%);
 }
 .first__section__text2 {
+    font-size: .95rem;
     margin-bottom: 1.5rem;
 }
 .first__section__button {
@@ -106,4 +107,8 @@ li {
 .second__section {
     background-color: var(--light-cyan);
     border-radius: 0 0 5px 5px;
+}
+.second__section__links li {
+    font-size: .88rem;
+    line-height: 1.4;
 }
